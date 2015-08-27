@@ -68,7 +68,7 @@ fourth_recycle_bin = {
   "park_site_name"=>"Barstow Mansion"}
 ```
 
-Your job is to follow the tests in `spec/recycling_spec.rb` to pass the tests!
+Your job is to follow the tests in `spec/recycling_spec.rb` to pass the tests. It's also important to note that the output in terminal from these tests may not look like the other tests because of the use of an API. The tests still run the same way, and if you look at `spec/recycle_spec.rb`, the tests are all still written the same way. It's okay to be outside of your comfort zone!
 
 
 

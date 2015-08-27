@@ -53,7 +53,6 @@ describe 'nyc recycles' do
   describe '#key_and_data' do
     it 'prints the key and the data' do
       output = capture_stdout { key_and_data(@fourth_recycling_bin) }
-      binding.pry
       expect(output).to eq  "The address is 895 Shore Road, Pelham Bay Park\nThe site_type is Outdoor \nThe longitude is -73.805549\nThe borough is Bronx\nThe latitude is 40.871864\nThe park_site_name is Barstow Mansion\n"
     end
   end
