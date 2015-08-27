@@ -34,6 +34,33 @@ require 'pry'
 
 ###### Code Your Solutions Here!!!
 
+def address(recycling_info)
+  recycling_info["address"]
+end
+
+def borough(recycling_info)
+  recycling_info["borough"]
+end
+
+def all_keys(recycling_info)
+  recycling_info.each_key do |info|
+    puts info
+  end
+end
+
+def all_data(recycling_info)
+  recycling_info.each_value do |data|
+    puts data
+  end
+end
+
+def key_and_data(recycling_info)
+  recycling_info.each do |topic, data|
+    puts "The #{topic} is #{data}"
+  end
+end
+
+
 
 
 

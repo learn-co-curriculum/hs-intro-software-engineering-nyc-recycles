@@ -23,45 +23,38 @@ describe 'nyc recycles' do
 
   describe '#address' do
     it "returns the address of the recycling bin" do
-      expect(address(@first_recycling_bin)).to eq(@first_recycling_bin[:address])
-      expect(address(@third_recycling_bin)).to eq(@third_recycling_bin[:address])
+      expect(address(@first_recycling_bin)).to eq(@first_recycling_bin["address"])
+      expect(address(@third_recycling_bin)).to eq(@third_recycling_bin["address"])
 
     end
   end
 
   describe '#borough' do
     it 'returns the borough of the recycling bin' do
-      expect(borough(@second_recycling_bin)).to eq(@second_recycling_bin[:borough])
-      expect(borough(@fourth_recycling_bin)).to eq(@fourth_recycling_bin[:borough])
+      expect(borough(@second_recycling_bin)).to eq(@second_recycling_bin["borough"])
+      expect(borough(@fourth_recycling_bin)).to eq(@fourth_recycling_bin["borough"])
     end
   end
 
   describe '#all_keys' do
     it 'prints out all the keys in the hash using the each_keys method so you know what data points you have' do
       output = capture_stdout { all_keys(@third_recycling_bin) }
-      expect(output).to eq output
+      expect(output).to eq "address\nsite_type\nlongitude\nborough\nlatitude\npark_site_name\n"
     end
   end
 
   describe '#all_data' do
     it 'prints all the values of the hash so we can see the pieces of data using the each_value method' do
       output = capture_stdout { all_data(@second_recycling_bin) }
-
-      expect(output).to eq  capture_stdout { all_data(@second_recycling_bin) }
+      expect(output).to eq "Allerton Ave & Moshulu Pkway\nSubproperty\n-73.8771283938\nBronx\n40.8488907878\nAllerton Ballfields\n"
     end
   end
 
-  # describe '#amounts' do
-  #   it 'prints the amounts of each ingredient' do
-  #     output = capture_stdout { amounts(@mac_and_cheese_ingredients) }
-  #     expect(output).to eq "2 cups\n1/2 stick\n1 cup\n3 cups\n"
-  #   end
-  # end
-
-  # describe '#number_ingredients' do
-  #   it 'returns the total number of ingredients' do
-  #     expect(number_ingredients(@mac_and_cheese_ingredients)).to eq 4
-  #   end
-  # end
+  describe '#key_and_data' do
+    it 'prints the key and the data' do
+      output = capture_stdout { key_and_data(@fourth_recycling_bin) }
+      expect(output).to eq  "The address is 895 Shore Road, Pelham Bay Park\nThe site_type is Outdoor \nThe longitude is -73.805549\nThe borough is Bronx\nThe latitude is 40.871864\nThe park_site_name is Barstow Mansion\n"
+    end
+  end
   
 end
