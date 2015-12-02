@@ -76,3 +76,5 @@ Your job is to follow the tests in `spec/recycling_spec.rb` to pass the tests. I
 
 
 
+
+<a href='https://learn.co/lessons/hs-intro-software-engineering-nyc-recycles' data-visibility='hidden'>View this lesson on Learn.co</a>
