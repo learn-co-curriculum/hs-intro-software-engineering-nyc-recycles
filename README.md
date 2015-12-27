@@ -2,7 +2,7 @@
 
 <img src="https://s3.amazonaws.com/after-school-assets/nyc-recycle.gif" width="300" align="right" hspace="10">
 
-New York City has opened sourced a lot of really interesting [data about life in the city](https://nycopendata.socrata.com/), things like the amount of water consumed by New Yorkers, leading cause of death in NYC, high school graduation outcomes by borough, location of all FDNY locations, and much much more.
+New York City has open-sourced a lot of really interesting [data about life in the city](https://nycopendata.socrata.com/), things like the amount of water consumed by New Yorkers, leading cause of death in NYC, high school graduation outcomes by borough, location of all FDNY locations, and much much more.
 
 Along with making this information free and available to the public, the City has made the information available through an API so we can build cool apps with their data. 
 
@@ -27,7 +27,7 @@ You have four hashes to work with, stored in four different variables:
 first_recycling_bin
 second_recycling_bin
 third_recycling_bin
-second_recycling_bin
+fourth_recycling_bin
 ```
 
 We've set up the API integration and stored the hashes in variables for you. Remember, because we're getting this data from NYC open data, you won't actually see the hash hard-coded in `lib/recycle.rb`. 
@@ -68,7 +68,7 @@ fourth_recycle_bin = {
   "park_site_name"=>"Barstow Mansion"}
 ```
 
-Your job is to follow the tests in `spec/recycling_spec.rb` to pass the tests!
+Your job is to follow the tests in `spec/recycling_spec.rb` to pass the tests. It's also important to note that the output in terminal from these tests may not look like the other tests because of the use of an API. The tests still run the same way, and if you look at `spec/recycle_spec.rb`, the tests are all still written the same way. It's okay to be outside of your comfort zone!
 
 
 
@@ -76,3 +76,5 @@ Your job is to follow the tests in `spec/recycling_spec.rb` to pass the tests!
 
 
 
+
+<a href='https://learn.co/lessons/hs-intro-software-engineering-nyc-recycles' data-visibility='hidden'>View this lesson on Learn.co</a>
