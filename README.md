@@ -27,7 +27,7 @@ You have four hashes to work with, stored in four different variables:
 first_recycling_bin
 second_recycling_bin
 third_recycling_bin
-second_recycling_bin
+fourth_recycling_bin
 ```
 
 We've set up the API integration and stored the hashes in variables for you. Remember, because we're getting this data from NYC open data, you won't actually see the hash hard-coded in `lib/recycle.rb`. 
