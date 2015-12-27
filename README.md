@@ -2,7 +2,7 @@
 
 <img src="https://s3.amazonaws.com/after-school-assets/nyc-recycle.gif" width="300" align="right" hspace="10">
 
-New York City has opened sourced a lot of really interesting [data about life in the city](https://nycopendata.socrata.com/), things like the amount of water consumed by New Yorkers, leading cause of death in NYC, high school graduation outcomes by borough, location of all FDNY locations, and much much more.
+New York City has open-sourced a lot of really interesting [data about life in the city](https://nycopendata.socrata.com/), things like the amount of water consumed by New Yorkers, leading cause of death in NYC, high school graduation outcomes by borough, location of all FDNY locations, and much much more.
 
 Along with making this information free and available to the public, the City has made the information available through an API so we can build cool apps with their data. 
 
