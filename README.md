@@ -77,4 +77,4 @@ Your job is to follow the tests in `spec/recycling_spec.rb` to pass the tests. I
 
 
 
-<a href='https://learn.co/lessons/hs-intro-software-engineering-nyc-recycles' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-intro-software-engineering-nyc-recycles' title='NYC Recycles'>NYC Recycles</a> on Learn.co and start learning to code for free.</p>
